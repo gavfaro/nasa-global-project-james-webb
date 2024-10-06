@@ -28,7 +28,7 @@ export function ImageCard({ id, imageUrl, title }: iAppProps) {
         </div>
 
         <Button asChild className="w-full mt-5">
-          <Link href={`/article/${id}`}>Explore</Link>
+          <Link href={`/image/${id}`}>Explore</Link>
         </Button>
       </div>
     </>
