@@ -13,7 +13,7 @@ export function ImageCard({ id, imageUrl, title }: iAppProps) {
   return (
     <>
       <div className="rounded-lg">
-        <div className="relative h-[350px]">
+        <div className="relative h-[250px]">
           <Image
             alt="Article Image"
             src={imageUrl}

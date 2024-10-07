@@ -9,17 +9,18 @@ datasource db {
 }
 
 model NASA {
-  id                 String @id @unique
-  image_url          String
-  image_caption      String
-  object_name        String
-  object_description String
-  r_a_position       String
-  dec_position       String
-  Constellation      String
-  distance           String
-  dimension          Float
-  Instrument         String
+  id                   String @id @unique
+  image_url            String
+  image_caption        String
+  object_name          String
+  object_description   String
+  r_a_position         String
+  dec_position         String
+  Constellation        String
+  distance_light       String
+  dimension_arcminutes String
+  Instrument           String
+  lore                 String
 }
 
 model User {
